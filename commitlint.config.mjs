@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   extends: ['@commitlint/config-conventional'],
   parserPreset: {
     parserOpts: {
@@ -27,3 +27,5 @@ module.exports = {
     'type-case': [2, 'always', 'lower-case'],
   },
 };
+
+export default config;
