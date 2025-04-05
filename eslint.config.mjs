@@ -46,7 +46,6 @@ export default [
   {
     plugins: {
       react,
-      '@typescript-eslint': typescriptEslint,
       'simple-import-sort': simpleImportSort,
     },
     languageOptions: {
